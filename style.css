@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  .question {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .answer {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+  }
+  
+  .answer p {
+    border: 1px solid;
+    width: 50px;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .abc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .letter {
+    border: 1px solid;
+    width: 50px;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
